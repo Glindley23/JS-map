@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--Create space for map-->
+    <div id="map" alt="map loading">
+
+    </div>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin=""/>
+    
+     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+    crossorigin=""></script>
+    
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+   
+    <title>Map</title>
+</head>
+<body>
+    <!--form to hold user input-->
+    <form>
+    <!--Add user interface-->
+    
+    <!--Drop-down menu-->
+        <div id="dropdown">
+            <label for="Business">Businesses Near Me:</label>
+            <select name="Business" id="Business">
+                <option value="coffee">Coffee</option>
+                <option value="restaurant">Restaurants</option>
+                <option value="hotel">Hotels</option>
+                <option value="market">Markets</option>
+            </select>
+        
+        <input type="submit" value="Search">
+        </div>
+    </form>
+    
+    
+    
+    <!--Obtain User Location-->
+    <!--Add user location to map-->
+    <!--Retrieve selected location from user-->
+    <!--Add info to map based on user input-->
+</body>
+</html>

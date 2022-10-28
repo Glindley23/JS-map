@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite;
+}
+
+#dropdown {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    position: relative;
+    width: fit-content;
+    left: 100px;
+}
+
+#Business {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    
+}
+
+#map {
+    height: 400px;
+}
